@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/brown"
+        android:layout_height="60dp"
+        app:title="@string/movie_app"
+        app:titleTextColor="@color/white"
+        app:logo="@color/white"/>
+
+    <FrameLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentEnd="true"
+        app:backgroundTint="@color/brown"
+        android:src="@drawable/ic_search"
+        android:layout_alignBottom="@+id/fragment_container"/>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:background="@color/brown"
+        android:layout_height="wrap_content"
+        app:itemIconTint="@color/white"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation" />
+
+
+</RelativeLayout>

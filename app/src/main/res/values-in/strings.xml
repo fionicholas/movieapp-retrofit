@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="name_movie">Judul Film</string>
+    <string name="movie_details">Detail Film</string>
+    <string name="rating">Penilaian</string>
+    <string name="relase">Tanggal Rilis</string>
+
+
+    <string name="language">Bahasa</string>
+    <string name="overview">Ikhtisar</string>
+    <string name="movie_app">Aplikasi Film</string>
+
+
+    <string name="movie">Film</string>
+    <string name="tv_show">Acara TV</string>
+    <string name="change_language_settings">Ganti Pengaturan Bahasa</string>
+
+    <string name="favorite_movie">Film Favorit</string>
+    <string name="favorite_tv_show">Acara TV Favorit</string>
+
+    <string name="search">Pencarian</string>
+    <string name="title_movie">Judul Film</string>
+    <string name="title_tvshow">Judul Acara TV</string>
+
+    <string name="appwidget_text">Widget Film</string>
+    <string name="add_widget">Tambah Widget</string>
+    <string name="no_data">tidak ada data</string>
+    <string name="favorite">favorit</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="hint_daily">Aplikasi akan mengingatkanmu setiap hari</string>
+    <string name="release_today_reminder">Pengingat Rilis Harian</string>
+    <string name="hint_release">Aplikasi akan mengirim informasi rilis film</string>
+    <string name="toogle_off">Mati</string>
+    <string name="toogle_on">Hidup</string>
+
+    <string name="daily_reminder_msg">Halo! Temukan Film kamu sekarang</string>
+    <string name="release_today_reminder_msg">telah rilis hari ini !</string>
+
+    <string name="movie_detail">Detail Film</string>
+    <string name="tvshow_detail">Detail Acara TV</string>
+    <string name="setting">Pengaturan</string>
+</resources>
