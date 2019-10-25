@@ -4,7 +4,10 @@
 
     <group android:menuCategory="container">
 
-        <item android:id="@+id/menusetting"
+        <item
+            android:id="@+id/menusetting"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_settings"
             android:title="@string/setting" />
     </group>
 

@@ -5,6 +5,8 @@
     <group android:menuCategory="container">
 
         <item android:id="@+id/menusetting"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_settings"
             android:title="@string/change_language_settings" />
     </group>
 
